@@ -3,25 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>weer-app</title>
   </head>
   <body>
+    <div class="box"> 
     <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="search" />
+      <form class="form-input">
+        <input type="search" placeholder="Enter a city.." required class="city-input" />
+        <input type="submit" value="search" class=search-button />
       </form>
     </header>
     <main>
+      <div class="weather-data">
       <div>
-        <h1>Oslo</h1>
-        <p>
+        <h1>Amsterdam</h1>
+        <p class="weather-details">
           Tuesday 10:08, clear sky
           <br />
-          Humidity: 75%, Wind: 3.6km/h
+          Humidity: <strong>75%</strong>, Wind: <strong>3.6</strong> km/h
         </p>
       </div>
-      <div>☀ 6°C</div>
+      <div class="container-weather">
+        <div class="weather-icon">🌤 </div> 
+        <div class="weather-temperature"> 6</div> 
+          <div class="weather-celcius"> °C</div>
+          </div>
+          </div>
     </main>
     <footer>
       This project was coded by <a href=https://github.com/MinkeBerg
@@ -30,5 +41,6 @@
       hosted on <a href=https://mijn-weer-app.netlify.app/ target=blank> Netlify
       </a>
     </footer>
+    </div>
   </body>
 </html>
