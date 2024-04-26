@@ -12,15 +12,15 @@
   <body>
     <div class="box"> 
     <header>
-      <form class="form-input">
-        <input type="search" placeholder="Enter a city.." required class="city-input" />
+      <form class="form-input" id="form-input">
+        <input type="search" placeholder="Enter a city.." id="city-input" class="city-input" />
         <input type="submit" value="search" class=search-button />
       </form>
     </header>
     <main>
       <div class="weather-data">
       <div>
-        <h1>Amsterdam</h1>
+        <h1 id="city">Amsterdam</h1>
         <p class="weather-details">
           Tuesday 10:08, clear sky
           <br />
@@ -41,6 +41,7 @@
       hosted on <a href=https://mijn-weer-app.netlify.app/ target=blank> Netlify
       </a>
     </footer>
+    <script src="src/index.js"></script>
     </div>
   </body>
 </html>
