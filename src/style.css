@@ -57,7 +57,7 @@ h1 {
 
 .weather-icon {
   font-size: 60px;
-  margin-right: 10px;
+  margin-right: -8px;
 }
 
 .weather-temperature {
