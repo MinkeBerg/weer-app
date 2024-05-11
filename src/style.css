@@ -85,18 +85,21 @@ h1 {
   font-size: 16px;
   font-weight: 500;
 }
-.weahter-forecast-icon {
+.weather-forecast-icon {
+  display: block;
+  margin: 0 auto;
+  margin-left: -35px;
 }
-.weaher-forecast-temperature-max {
+.weather-forecast-temperature-max {
   font-size: 16px;
   color: #5585b5;
   font-weight: 700;
-  margin-left: -15px;
+  margin-left: -10px;
 }
 .weather-forecast-temperature-min {
   font-size: 16px;
   color: #5585b5;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 footer {
