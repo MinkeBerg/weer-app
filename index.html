@@ -3,46 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>  
-<title>weer-app</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <title>weer-app</title>
   </head>
   <body>
-    <div class="box"> 
-    <header>
-      <form class="form-input" id="form-input">
-        <input type="search" placeholder="Enter a city.." id="city-input" class="city-input" />
-        <input type="submit" value="search" class=search-button />
-      </form>
-    </header>
-    <main>
-      <div class="weather-data">
-      <div>
-        <h1 id="city"></h1>
-        <p class="weather-details">
-          <span id=time></span>, <span id="conditions"> </span>
+    <div class="box">
+      <header>
+        <form class="form-input" id="form-input">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            id="city-input"
+            class="city-input"
+          />
+          <input type="submit" value="search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-data">
+          <div>
+            <h1 id="city"></h1>
+            <p class="weather-details">
+              <span id="time"></span>, <span id="conditions"> </span>
+              <br />
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="windspeed"></strong>
+            </p>
+          </div>
+          <div class="container-weather">
+            <div class="weather-icon" id="icon"></div>
+            <div class="weather-temperature" id="temperature"></div>
+            <div class="weather-celcius">°C</div>
+          </div>
+        </div>
+        <div class="weather-forecast">
+          <div class="weather-forecast-day">Thu</div>
+          <div class="weahter-forecast-icon">🌤</div>
           <br />
-          Humidity: <strong id="humidity"></strong>, Wind: <strong id="windspeed"></strong> 
-        </p>
-      </div>
-      <div class="container-weather">
-        <div class="weather-icon" id="icon"></div> 
-        <div class="weather-temperature" id="temperature"> </div> 
-          <div class="weather-celcius"> °C</div>
+          <div class="weather-forecast-temperature">
+            <span class="weaher-forecast-temperature-max">16°</span>
+            <span class="weather-forecast-temperature-min">12°</span>
           </div>
-          </div>
-    </main>
-    <footer>
-      This project was coded by <a href=https://github.com/MinkeBerg
-      target=blank> Minke van den Berg</a>, is open-sourced on <a
-      href=https://github.com/MinkeBerg/weer-app target="blank"> GitHub </a> and
-      hosted on <a href=https://mijn-weer-app.netlify.app/ target=blank> Netlify
-      </a>
-    </footer>
-    <script src="src/index.js"></script>
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/MinkeBerg" target="_blank">
+          Minke van den Berg</a
+        >, is open-sourced on
+        <a href="https://github.com/MinkeBerg/weer-app" target="_blank">
+          GitHub
+        </a>
+        and hosted on
+        <a href="https://mijn-weer-app.netlify.app/" target="-blank">
+          Netlify
+        </a>
+      </footer>
+      <script src="src/index.js"></script>
     </div>
   </body>
 </html>

@@ -70,6 +70,33 @@ h1 {
   margin-top: 14px;
 }
 
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.container-weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.weather-forecast-day {
+  font-size: 16px;
+  font-weight: 500;
+}
+.weahter-forecast-icon {
+}
+.weaher-forecast-temperature-max {
+  font-size: 16px;
+  color: #5585b5;
+  font-weight: 700;
+}
+.weather-forecast-temperature-min {
+  font-size: 16px;
+  color: #5585b5;
+}
+
 footer {
   font-size: 14px;
   margin-top: 15px;
