@@ -91,10 +91,12 @@ h1 {
   font-size: 16px;
   color: #5585b5;
   font-weight: 700;
+  margin-left: -15px;
 }
 .weather-forecast-temperature-min {
   font-size: 16px;
   color: #5585b5;
+  margin-left: 5px;
 }
 
 footer {
