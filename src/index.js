@@ -37,7 +37,7 @@ function formateDate(date) {
     minutes = `0${minutes}`;
   }
 
-  return `${day} ${hours}:${minutes} `;
+  return `${day} ${hours}:${minutes}`;
 }
 function searchCity(city) {
   let apiKey = "39f42bod6b341c40f416ecb0tf021fa4";
